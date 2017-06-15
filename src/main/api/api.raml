@@ -1,0 +1,19 @@
+#%RAML 0.8
+title: AppointmentsExerienceAPIXML
+version: 0.1
+baseUri: http://localhost:8080
+/appointment:
+  get:
+    description: List of available appointments
+    queryParameters:
+      customerID: 
+        description: Customer ID
+        type: string
+        example: 123457
+    responses:
+      200:
+        body: 
+          application/xml: 
+            schema: !include
+              appointments.xsd
+            
