@@ -30,7 +30,7 @@
     <password>Ajd2016f$</password>
     <workerType>Micro</workerType> 
     <redeploy>true</redeploy> 
-    <environment>Production</environment>
+    <environment>Sandbox</environment>
     <businessGroup>Yorkshire Water</businessGroup>
     </configuration> 
     <executions>
