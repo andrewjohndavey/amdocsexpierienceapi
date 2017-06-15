@@ -13,34 +13,34 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.8.4</mule.version>
-    	<mule.tools.version>1.2</mule.tools.version>
+    	<mule.tools.version>1.3</mule.tools.version>
 	</properties>
 
 	<build>
 		<plugins>
 		
 		<plugin> 
-    <groupId>org.mule.tools.maven</groupId> 
-    <artifactId>mule-maven-plugin</artifactId> 
-    <version>2.0</version>
-    <configuration>
-    <deploymentType>cloudhub</deploymentType> 
-    <muleVersion>3.8.4</muleVersion>
-    <username>andrewdavey</username> 
-    <password>Ajd2016f$</password>
-    <workerType>Micro</workerType> 
-    <redeploy>true</redeploy> 
-    <environment>Sandbox</environment>
-    <businessGroup>Yorkshire Water</businessGroup>
-    </configuration> 
-    <executions>
-    <execution>
-    <goals> 
-        <goal>deploy</goal>
-      </goals> 
-    </execution>
-    </executions> 
-  </plugin>
+    			<groupId>org.mule.tools.maven</groupId> 
+    			<artifactId>mule-maven-plugin</artifactId> 
+    			<version>2.0</version>
+    			<configuration>
+    			<deploymentType>cloudhub</deploymentType> 
+    			<muleVersion>3.8.4</muleVersion>
+    				<username>andrewdavey</username> 
+    			<password>Ajd2016f$</password>
+    			<workerType>Micro</workerType> 
+    			<redeploy>true</redeploy> 
+    			<environment>Sandbox</environment>
+    			<businessGroup>Yorkshire Water</businessGroup>
+    			</configuration> 
+    			<executions>
+    			<execution>
+    				<goals> 
+        				<goal>deploy</goal>
+      				</goals> 
+    				</execution>
+    			</executions> 
+  			</plugin>
 		
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
