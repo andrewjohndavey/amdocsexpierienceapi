@@ -26,20 +26,21 @@
     			<configuration>
     			<deploymentType>cloudhub</deploymentType> 
     			<muleVersion>3.8.4</muleVersion>
-    				<username>andrewdavey</username> 
+    			<username>andrewdavey</username> 
     			<password>Ajd2016f$</password>
     			<workerType>Micro</workerType> 
     			<redeploy>true</redeploy> 
     			<environment>Sandbox</environment>
-    			<businessGroup>Yorkshire Water</businessGroup>
     			</configuration> 
-    			<executions>
-    			<execution>
-    				<goals> 
-        				<goal>deploy</goal>
-      				</goals> 
-    				</execution>
-    			</executions> 
+        		<executions>
+            			<execution>
+                			<id>deploy</id>
+                			<phase>deploy</phase>
+                			<goals>
+                		    	<goal>deploy</goal>
+                			</goals>
+            			</execution>
+        		</executions>
   			</plugin>
 		
 			<plugin>
